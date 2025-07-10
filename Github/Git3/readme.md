@@ -5,3 +5,14 @@
 5. main과 본인 이름 branch merge(충돌 해결 - 본인이름 branch로)
 6. 본인이름 브랜치 삭제 
 7. `git log --all --decorate --oneline --graph`로 나온 결과 제출
+
+2025_summer.yaml 파일 형식
+
+team: MI_LAB
+
+manager: aaa
+
+members:
+- Violet
+- Stella
+- Anthony
