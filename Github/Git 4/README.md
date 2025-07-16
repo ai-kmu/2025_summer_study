@@ -6,22 +6,27 @@
 
 예시
 * git4.yaml 원본
+```
 team: MI_LAB
 
 members:
 - AI
-
+```
 * git4.yaml 팀원1이 수정한 후
+```
 team: MI_LAB
 
 members:
 - AI
 - 팀원1
+```
 
 * git4.yaml 팀원2가 수정한 후
+```
 team: MI_LAB
 
 members:
 - AI
 - 팀원1
 - 팀원2
+```
