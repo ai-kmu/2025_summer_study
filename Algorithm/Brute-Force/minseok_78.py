@@ -25,7 +25,7 @@ class Solution:
         result = [[]]   
         
         for case_num in range(1, len(nums)+1):
-            # combinations(iterable, n) -> iterable 변수에서 n개를 뽑는 모든 경우의 수를 iterable 형태로 반환함
+            # combinations(iterable, n) -> iterable 변수에서 n개를 뽑는 모든 경우의 수를 iterable과 동일한 타입으로 반환함
             result.extend(combinations(nums, case_num))
         
         return result
