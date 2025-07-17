@@ -1,1 +1,0 @@
-# 2025_summer_study
