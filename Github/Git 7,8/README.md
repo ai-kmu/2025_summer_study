@@ -21,6 +21,6 @@ Leopards 변경
 - `git stash list`를 사용하여 stash들 확인하기 (캡쳐 2)
 - 새로운 new-branch를 만들어서 거기서 `git stash pop` 사용하여 불러와보기
 
-### 3. Git rebase를 사용하여, 실습처럼 다 바꿔보기
+### 3. Git rebase를 사용하여, 여러 커밋 바꿔보기
 - `git rebase -i` 를 서용해서 여러 커밋을 수정해보기 (아무렇게나) (캡쳐 3)
 - 소스트리나 vsc에서 원본 그래프랑 수정 후 그래프 바뀌는거 보기
