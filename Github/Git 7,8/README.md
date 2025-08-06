@@ -7,6 +7,7 @@ Tigers 변경
 * manager: Thanos
 * coach: Ronan
 * 새 members: Gamora, Nebula
+  
 Leopards 변경
 * manager: Peter
 * coach: Rocket
