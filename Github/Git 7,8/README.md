@@ -1,4 +1,6 @@
 ### 1. 내용 확인하며 hunk별로 스테이징하기
+[git-실습.zip](https://github.com/user-attachments/files/21615119/git-.zip)
+- 위 파일 다운로드 or 사실 아무거나 상관X
 - 아래와 같이 or 아무렇게나 내용 변경
 
 Tigers 변경
@@ -22,5 +24,7 @@ Leopards 변경
 - 새로운 new-branch를 만들어서 거기서 `git stash pop` 사용하여 불러와보기
 
 ### 3. Git rebase를 사용하여, 여러 커밋 바꿔보기
+[git-interactive.zip](https://github.com/user-attachments/files/21615123/git-interactive.zip)
+
 - `git rebase -i` 를 서용해서 여러 커밋을 수정해보기 (아무렇게나) (캡쳐 3)
 - 소스트리나 vsc에서 원본 그래프랑 수정 후 그래프 바뀌는거 보기
