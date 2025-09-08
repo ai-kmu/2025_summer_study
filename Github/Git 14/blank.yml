@@ -1,0 +1,39 @@
+# workflow의 이름을 CI로 지정
+
+name: CI
+
+# workflow가 언제 실행될지 제어
+on:
+  # main 브랜치에 push 이벤트가 발생했을 때 workflow 실행
+  push:
+    branches: [ "main" ]
+  # main 브랜치에 PR 이벤트가 발생했을 때 workflow 실행
+  pull_request:
+    branches: [ "main" ]
+
+  # Actions 탭에서 수동으로 이 workflow 실행할 수 있도록 함
+  workflow_dispatch:
+
+# workflow는 순차적 또는 병렬적으로 실행될 수 있는 1개 이상의 작업(job)으로 구성됨
+jobs:
+  # 이 workflow는 build 라는 이름의 단일 job으로 구성됨
+  build:
+    # 작업이 실행될 가상 환경의 종류 지정
+    runs-on: ubuntu-latest
+
+    # steps는 작업(여기서는 build)의 일부로 실행될 일련의 작업들을 나타냄
+    steps:
+      # checkout action으로 코드 내려 받기. 레포지토리의 코드를 가상 환경으로 가져옴. @v4는 checkout의 버전을 나타냄
+      - uses: actions/checkout@v4
+
+      # Run a one-line script 라는 이름의 step을 정의
+      - name: Run a one-line script
+      # shell 명령어를 사용하여 출력
+        run: echo Hello, world!
+
+      # Run a multi-line script 라는 이름의 step을 정의
+      - name: Run a multi-line script
+      # 여러 줄의 shell 명령어를 실행      
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
