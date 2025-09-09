@@ -4,7 +4,7 @@
 
 1. 다음의 깃헙 레포지토리를 fork 한 후 원하는 로컬 경로에 clone 하기
    
-    (GitHub 사이트에서 다음의 레포지토리를 fork 합니다. 이 때 main만 fork 하기 체크박스 체크하기.)
+    (GitHub 사이트에서 다음의 레포지토리를 fork 합니다. 이 때 "main만 fork 하기" 체크박스 체크하기.)
     
     https://github.com/dla020501/git14-test.git
     
